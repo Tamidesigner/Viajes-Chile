@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/58d7a39f1c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/58d7a39f1c.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
@@ -42,29 +42,32 @@
     <!-- carousel con img -->
     <div class="row">
         <div class="col">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            <section>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+            </section>
+
         </div>
 
     </div>
@@ -75,10 +78,10 @@
 
         <!-- sección de presentación con favicon y 3 párrafos que desaparecen en sm  -->
         <div class="titles">
-            <h3 class=" pt-4 pb-2 text-center">¿Quienes somos?</h3>
+            <h3 class=" pt-4 pb-5 text-center">¿Quienes somos?</h3>
         </div>
         <div class="row">
-           
+
             <div class="col-4">
                 <div class=" text-center"><i class="fa-solid fa-plane"></i></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quidem beatae optio assumenda totam,
@@ -87,17 +90,17 @@
                     cum architecto, earum quaerat itaque?</p>
             </div>
             <div class="col-4">
-               
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem et iste mollitia similique
                     sapiente?
                     Suscipit deleniti ea odit aliquid adipisci? Repellendus debitis impedit, quisquam et suscipit odio
                     illo
                     laboriosam ad?</p>
-                    <div class="text-center"><i class="fa-solid fa-mountain"></i></div>
+                <div class="text-center"><i class="fa-solid fa-mountain"></i></div>
             </div>
             <div class="col-4">
                 <div class="text-center">
-                    <i class="fa-solid fa-route"></i> 
+                    <i class="fa-solid fa-route"></i>
                 </div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quisquam sapiente blanditiis!
                     Explicabo
@@ -113,72 +116,83 @@
         <!-- Fin presentación -->
 
         <div class="titles">
-            <h3 class="pb-4 text-center">Destacados</h3>
+            <h3 class="pt-4 pb-5 text-center">Destacados</h3>
         </div>
 
         <!-- sección destacados, con 4 cards -->
 
 
-        <div class="Landscape-cards">
+        <div>
             <!-- Card 1 -->
-            <div class="row">
-                <div class="col 3">
-                    <div class="card">
-                        <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum atque explicabo voluptates unde in repellendus provident vel id ratione non?</p>
+            <section class="cards-size">
+                <div class="row">
+
+                    <div class="col 3">
+                        <div class="card">
+                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum
+                                    atque
+                                    explicabo voluptates unde in repellendus provident vel id ratione non?</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- fin card 1 -->
+                    <!-- fin card 1 -->
 
-                <!-- card 2 -->
-                <div class="col-3">
-                    <div class="card">
-                        <img id=larger-img src="assets/img/card2.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. At quasi necessitatibus accusamus rem ipsam debitis ab neque reprehenderit. Sit, deserunt facilis? Sapiente.</p>
+                    <!-- card 2 -->
+                    <div class="col-3">
+                        <div class="card">
+                            <img id=larger-img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae
+                                    magni, quos laborum a libero ad at ut doloribus earum voluptatem.</p>
+                            </div>
+
                         </div>
                     </div>
-                </div>
 
-                <!-- fin card 2 -->
+                    <!-- fin card 2 -->
 
-                <!--  Card 3 -->
+                    <!--  Card 3 -->
 
-                <div class="col-3">
-                    <div class="card">
-                        <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officiis ipsa natus repudiandae quia libero excepturi provident, quidem rerum necessitatibus?</p>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                                    officiis ipsa natus repudiandae quia libero excepturi provident, quidem rerum
+                                    necessitatibus?</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
 
-                <!-- fin card 3 -->
+                    <!-- fin card 3 -->
 
-                <!-- Card 4 -->
+                    <!-- Card 4 -->
 
-                <div class="col-3">
-                    <div class="card">
-                        <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio natus odit, reiciendis sunt similique laboriosam. Odio, a? Cupiditate, quasi accusantium.</p>
+                    <div class="col-3">
+                        <div class="card">
+                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio
+                                    natus
+                                    odit, reiciendis sunt similique laboriosam. Odio, a? Cupiditate, quasi accusantium.
+                                </p>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- fin card 4 -->
+
                 </div>
-
-                <!-- fin card 4 -->
-
-            </div>
-            <!-- fin de las cards -->
-
+                <!-- fin de las cards -->
+            </section>
 
 
             <div class="titles">
-                <h3 class=" pt-4 text-center">Contacto</h3>
+                <h3 class=" pt-4 pb-5 text-center">Contacto</h3>
             </div>
         </div>
 
@@ -206,8 +220,14 @@
     <!-- fin formulario-->
 
     <!-- footer con links a RRSS -->
-    <footer></footer>
+    <footer>
+       <div class="row">
+        <span>Viajes Chile</span>
+       </div>
 
+    </footer>
+
+    
     <!-- Fin footer -->
 
 

@@ -1,7 +1,9 @@
 *{
     padding: 0;
     margin:0;
+    font-family: "Roboto", sans-serif;
 }
+
 .navbar{ background-color: black
 
 }
@@ -27,7 +29,6 @@
 
 .links{
     color: aliceblue;
-    font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style:light;
 }
@@ -58,4 +59,8 @@
 
 #larger-img{
     height: 202px;
+}
+
+.card-size{
+    width: 100%;
 }
