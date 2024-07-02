@@ -1,55 +1,51 @@
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     font-family: "Roboto", sans-serif;
 }
 
-.navbar{ background-color: black
-
-}
-.navbar-brand{ 
-  
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-style: normal;
-           
+.navbar {
+    background-color: black
 }
 
-.brand-name{
+.navbar-brand {
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.brand-name {
     color: aliceblue;
 }
-.logo{
+
+.logo {
     width: 20px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
     padding-right: 40px;
     justify-content: end;
 }
 
-.links{
+.links {
     color: aliceblue;
-  font-weight: 300;
-  font-style:light;
+    font-weight: 300;
+    font-style: light;
 }
 
-.fa-plane{
-    
+.fa-plane {
+
     color: aliceblue;
     width: 100%;
     height: 40px;
     padding: 12px;
     background-color: aqua;
-    
+
 }
-.fa-mountain{
-    color: aliceblue;
-    width: 100%;
-    height: 40px;
-    padding: 12px;
-    background-color: aqua;
-}
-.fa-route{
+
+.fa-mountain {
     color: aliceblue;
     width: 100%;
     height: 40px;
@@ -57,10 +53,38 @@
     background-color: aqua;
 }
 
-#larger-img{
+.fa-route {
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    padding: 12px;
+    background-color: aqua;
+}
+
+#larger-img {
     height: 202px;
 }
 
-.card-size{
+.card-size {
     width: 100%;
+}
+
+
+
+
+.footer-brand {
+    color: aliceblue;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 16px ;
+
+    
+   
+
+}
+
+footer {
+    background-color: aqua;
+    height: 42px
+ 
 }
