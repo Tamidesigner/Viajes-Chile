@@ -79,6 +79,8 @@ footer {
     font-size: 28px;
 }
 
-.icons{
+span i{
     align-items: center;
+    color: aliceblue;
+    
 }
