@@ -9,9 +9,21 @@ body {
 }
 
 .navbar {
-    background-color: black
+    background-color: rgba(49, 167, 178, 0.275)
 }
 
+#inicio{
+    margin-top: -58px;
+}
+#quienessomos{
+padding-top: 58px;
+}
+#destacados{
+    padding-top: 58px;
+}
+#contacto{
+    padding-top: 58px;
+}
 .navbar-brand {
 
     font-family: "Roboto", sans-serif;
